@@ -1,0 +1,42 @@
+Query,Relevant Docs (Ground Truth),Retrieved Docs (Top 5),Precision@5,Recall@5,Reciprocal Rank
+medical image classification,"[0, 6]","   Rank  Document ID  Similarity  \
+0     1            6      0.5344   
+1     2            0      0.4891   
+
+                                    Document preview  
+0  Image segmentation and classification for medi...  
+1  A novel approach to medical image classificati...  ",0.0,0.0,0.0
+transformer language model,"[2, 5]","   Rank  Document ID  Similarity  \
+0     1            2      0.4446   
+1     2            5      0.1680   
+2     3            7      0.1328   
+3     4            1      0.1073   
+
+                                    Document preview  
+0  The transformer language model architecture is...  
+1  Transformer-based models for processing electr...  
+2  Advances in natural language processing for au...  
+3  Natural language processing has seen immense p...  ",0.0,0.0,0.0
+deep learning healthcare,"[3, 4, 5, 6]","   Rank  Document ID  Similarity  \
+0     1            3      0.4549   
+1     2            4      0.3727   
+2     3            6      0.2912   
+3     4            5      0.1895   
+
+                                    Document preview  
+0  Deep learning is revolutionizing healthcare by...  
+1  An overview of traditional machine learning al...  
+2  Image segmentation and classification for medi...  
+3  Transformer-based models for processing electr...  ",0.0,0.0,0.0
+natural language processing,"[1, 2, 7]","   Rank  Document ID  Similarity  \
+0     1            7      0.5007   
+1     2            1      0.4047   
+2     3            5      0.1411   
+3     4            2      0.1179   
+
+                                    Document preview  
+0  Advances in natural language processing for au...  
+1  Natural language processing has seen immense p...  
+2  Transformer-based models for processing electr...  
+3  The transformer language model architecture is...  ",0.0,0.0,0.0
+AVERAGE (MEAN),-,-,0.0,0.0,0.0
