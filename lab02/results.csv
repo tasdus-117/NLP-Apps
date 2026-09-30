@@ -1,0 +1,6 @@
+Query,Relevant Docs (Ground Truth),Retrieved Docs (Top 5),Precision@5,Recall@5,Reciprocal Rank
+medical image classification,"[0, 6]","[6, 0]",0.4,1.0,1.0
+transformer language model,"[2, 5]","[2, 5, 7, 1]",0.4,1.0,1.0
+deep learning healthcare,"[3, 4, 5, 6]","[3, 4, 6, 5]",0.8,1.0,1.0
+natural language processing,"[1, 2, 7]","[7, 1, 5, 2]",0.6,1.0,1.0
+AVERAGE (MEAN),-,-,0.55,1.0,1.0
