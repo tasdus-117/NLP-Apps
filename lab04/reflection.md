@@ -1,6 +1,6 @@
-## 8. Đánh giá giả định (Hypothesis / Predictions) so với Thực nghiệm
+## 8. Đánh giá giả định so với Thực nghiệm
 
-| Giả định (Prediction) | Lý luận ban đầu | Kết quả kiểm chứng thực tế trên IMDb |
+| Giả định| Lý luận ban đầu | Kết quả kiểm chứng thực tế trên IMDb |
 | :--- | :--- | :--- |
 | **1. TF-IDF + Logistic Regression** | Hoạt động tốt, train nhanh, ít overfit. | **Đúng hoàn toàn:** Mô hình đạt **Accuracy = 0.8800**, thời gian huấn luyện cực nhanh ($\approx 8.62\text{s}$), là baseline mạnh mẽ và ổn định. |
 | **2. Average Word2Vec vs. TF-IDF** | Không chắc Word2Vec tốt hơn vì lấy trung bình làm mất thứ tự từ và trọng số từ khóa. | **Đúng hoàn toàn:** Phép lấy trung bình vector làm pha loãng ý nghĩa và mất cấu trúc phủ định, khiến TF-IDF với từ khóa đặc trưng giữ vững ưu thế. |
