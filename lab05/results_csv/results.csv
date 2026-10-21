@@ -1,0 +1,3 @@
+Model,Representation,Accuracy,Precision,Recall,F1,Training time
+Logistic Regression,TF-IDF,0.88,0.8785,0.882,0.8802,3.46s
+RNN,Embedding,0.54,0.5332,0.6409,0.5821,3.56s

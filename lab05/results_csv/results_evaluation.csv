@@ -1,0 +1,4 @@
+Model Architecture,Vocab Size,Sequence Length,Epochs,Parameters,Training Time,Accuracy,Precision,Recall,F1-Score
+RNN,10000,100,3,"648,385",2.05s,0.5442,0.5472,0.5117,0.5289
+LSTM,10000,100,3,"673,345",2.13s,0.5184,0.6277,0.0902,0.1578
+GRU,10000,100,3,"665,025",2.12s,0.7621,0.7349,0.82,0.7751
