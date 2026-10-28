@@ -1,0 +1,5 @@
+Sequence length (T),Attention Matrix Shape,Number of Elements (T^2),Memory Relative Scale
+10,10 x 10,100,1x
+100,100 x 100,10000,100x
+500,500 x 500,250000,2500x
+1000,1000 x 1000,1000000,10000x
