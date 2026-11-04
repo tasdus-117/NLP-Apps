@@ -1,0 +1,100 @@
+{
+  "pooling": "Mean",
+  "config": {
+    "data_hash": "4cdaa0e3393ccbfacbfd1d6d8841dbced9d8dad457e3c2d64ff13cf8981a93f9",
+    "core_hash": "db3d9f398ca4891c1d8ffc7e76ff59ba8e1ddde6f3ba3f2e83e0ac7163e25371",
+    "code_hash": "be3fcf611d758045c48b4a25cfa12c2a95d3e35256e7f7e236638dd88591f5a7",
+    "initial_hash": "c8fa9bd3202d37058ac5fbfd6de744807137a089766b3fc68bdfbd696ff08fc1",
+    "seed": 42,
+    "max_length": 128,
+    "content_limit": 127,
+    "vocab_size": 10001,
+    "cls_id": 10000,
+    "d_model": 128,
+    "heads": 4,
+    "d_ff": 512,
+    "blocks": 1,
+    "dropout": 0.1,
+    "position": "sinusoidal",
+    "batch_size": 64,
+    "padding": "fixed",
+    "optimizer": "Adam",
+    "lr": 0.001,
+    "epochs": 3,
+    "loss": "CrossEntropyLoss",
+    "dtype": "float32",
+    "checkpoint_rule": "max val macro F1, min val loss, earliest",
+    "warmup": "one discarded train step; reset state, optimizer, seed",
+    "timing": "train + validation + CPU best-state copy + logging; excludes warmup/test/save",
+    "device": "cuda",
+    "device_name": "NVIDIA GeForce RTX 5060 Ti",
+    "torch": "2.14.0+cu132",
+    "pooling": "Mean"
+  },
+  "parameters": 1478658,
+  "training_time": 4.276833899999929,
+  "best_epoch": 3,
+  "best_val_f1": 0.8072000973489353,
+  "test": {
+    "loss": 0.4231844376373291,
+    "accuracy": 0.80712,
+    "precision": 0.8086218953682411,
+    "recall": 0.8071200000000001,
+    "f1": 0.8068850535753245
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train": {
+        "loss": 0.5877835159301757,
+        "accuracy": 0.6723,
+        "precision": 0.6728036435534122,
+        "recall": 0.6722639561260859,
+        "f1": 0.6720317350780244
+      },
+      "validation": {
+        "loss": 0.4957272602081299,
+        "accuracy": 0.759,
+        "precision": 0.7601473045559759,
+        "recall": 0.7591671678802194,
+        "f1": 0.7588081946286965
+      }
+    },
+    {
+      "epoch": 2,
+      "train": {
+        "loss": 0.4353811457633972,
+        "accuracy": 0.7996,
+        "precision": 0.7996414783384103,
+        "recall": 0.799592121310685,
+        "f1": 0.7995898973267243
+      },
+      "validation": {
+        "loss": 0.46362375988960264,
+        "accuracy": 0.7792,
+        "precision": 0.7911120894858534,
+        "recall": 0.7786698552328855,
+        "f1": 0.7766908989404955
+      }
+    },
+    {
+      "epoch": 3,
+      "train": {
+        "loss": 0.35285810718536376,
+        "accuracy": 0.84825,
+        "precision": 0.8482661185106501,
+        "recall": 0.8482455185349262,
+        "f1": 0.8482468583305847
+      },
+      "validation": {
+        "loss": 0.4217522210597992,
+        "accuracy": 0.8074,
+        "precision": 0.8090781841766612,
+        "recall": 0.8075892772140558,
+        "f1": 0.8072000973489353
+      }
+    }
+  ],
+  "initial_hash": "c8fa9bd3202d37058ac5fbfd6de744807137a089766b3fc68bdfbd696ff08fc1",
+  "checkpoint": "artifacts\\experiment_25\\mean_b9d438aed675.pt"
+}

@@ -1,0 +1,100 @@
+{
+  "pooling": "CLS-style",
+  "config": {
+    "data_hash": "4cdaa0e3393ccbfacbfd1d6d8841dbced9d8dad457e3c2d64ff13cf8981a93f9",
+    "core_hash": "db3d9f398ca4891c1d8ffc7e76ff59ba8e1ddde6f3ba3f2e83e0ac7163e25371",
+    "code_hash": "be3fcf611d758045c48b4a25cfa12c2a95d3e35256e7f7e236638dd88591f5a7",
+    "initial_hash": "c8fa9bd3202d37058ac5fbfd6de744807137a089766b3fc68bdfbd696ff08fc1",
+    "seed": 42,
+    "max_length": 128,
+    "content_limit": 127,
+    "vocab_size": 10001,
+    "cls_id": 10000,
+    "d_model": 128,
+    "heads": 4,
+    "d_ff": 512,
+    "blocks": 1,
+    "dropout": 0.1,
+    "position": "sinusoidal",
+    "batch_size": 64,
+    "padding": "fixed",
+    "optimizer": "Adam",
+    "lr": 0.001,
+    "epochs": 3,
+    "loss": "CrossEntropyLoss",
+    "dtype": "float32",
+    "checkpoint_rule": "max val macro F1, min val loss, earliest",
+    "warmup": "one discarded train step; reset state, optimizer, seed",
+    "timing": "train + validation + CPU best-state copy + logging; excludes warmup/test/save",
+    "device": "cuda",
+    "device_name": "NVIDIA GeForce RTX 5060 Ti",
+    "torch": "2.14.0+cu132",
+    "pooling": "CLS-style"
+  },
+  "parameters": 1478658,
+  "training_time": 3.9501783000000614,
+  "best_epoch": 3,
+  "best_val_f1": 0.7770672747727086,
+  "test": {
+    "loss": 0.4592533181762695,
+    "accuracy": 0.77988,
+    "precision": 0.7806133139774502,
+    "recall": 0.77988,
+    "f1": 0.7797360985976247
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train": {
+        "loss": 0.6000708359718323,
+        "accuracy": 0.65745,
+        "precision": 0.6580796227997064,
+        "recall": 0.6574078860193273,
+        "f1": 0.6570708704141723
+      },
+      "validation": {
+        "loss": 0.526400973033905,
+        "accuracy": 0.7362,
+        "precision": 0.7388893486716875,
+        "recall": 0.7364684741075399,
+        "f1": 0.7355958788879182
+      }
+    },
+    {
+      "epoch": 2,
+      "train": {
+        "loss": 0.4954838210105896,
+        "accuracy": 0.76135,
+        "precision": 0.7616693720118592,
+        "recall": 0.7613269116424807,
+        "f1": 0.7612660701027705
+      },
+      "validation": {
+        "loss": 0.5018199696540833,
+        "accuracy": 0.754,
+        "precision": 0.7649657718523812,
+        "recall": 0.7534650136939702,
+        "f1": 0.751161690520887
+      }
+    },
+    {
+      "epoch": 3,
+      "train": {
+        "loss": 0.43417101941108704,
+        "accuracy": 0.80045,
+        "precision": 0.8005045655531933,
+        "recall": 0.8004410177453201,
+        "f1": 0.800437387143961
+      },
+      "validation": {
+        "loss": 0.46482651944160464,
+        "accuracy": 0.7772,
+        "precision": 0.7781514897440938,
+        "recall": 0.7773478994872021,
+        "f1": 0.7770672747727086
+      }
+    }
+  ],
+  "initial_hash": "c8fa9bd3202d37058ac5fbfd6de744807137a089766b3fc68bdfbd696ff08fc1",
+  "checkpoint": "artifacts\\experiment_25\\cls-style_7162fb699515.pt"
+}

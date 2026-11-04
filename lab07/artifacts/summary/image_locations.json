@@ -1,0 +1,107 @@
+[
+  {
+    "old": "artifacts/experiments_19_22/attention_example_1.png",
+    "new": "images/attention_example_1.png",
+    "sha256": "db7f3ce12a1c8d2e02d10be2f2c84553c6d6582ce5b1a820306f3aefdee53909"
+  },
+  {
+    "old": "artifacts/experiments_19_22/attention_example_2.png",
+    "new": "images/attention_example_2.png",
+    "sha256": "e95c164df35090a6e83e15acfc55aff1f3674909cbc393cc96dbb07364d8e676"
+  },
+  {
+    "old": "artifacts/experiments_19_22/attention_example_3.png",
+    "new": "images/attention_example_3.png",
+    "sha256": "71d950ab6b43c60c7a0efc3f1f9397ef62a6d73eb3be0010db962ccb225ea73a"
+  },
+  {
+    "old": "attention_heads.png",
+    "new": "images/attention_heads.png",
+    "sha256": "53847fbd6990603faacb82b837d86b413cc876da29d0bf471a3ec43cc2be919a"
+  },
+  {
+    "old": "confusion_matrix.png",
+    "new": "images/confusion_matrix.png",
+    "sha256": "d61af1db5e81d51d98a2796d6408ff01af3477fd448aa3bdf002b465c9178049"
+  },
+  {
+    "old": "error_attention_test_00001.png",
+    "new": "images/error_attention_test_00001.png",
+    "sha256": "fc1b48bb89ad058641cd6bfbe847db33ed0210d4da3cbac2aa3e31ab71db73f3"
+  },
+  {
+    "old": "error_attention_test_00002.png",
+    "new": "images/error_attention_test_00002.png",
+    "sha256": "6c51649f3574f367cd58994486a8ab2c647e5254f0d0bd207ab719081cdd8781"
+  },
+  {
+    "old": "error_attention_test_00008.png",
+    "new": "images/error_attention_test_00008.png",
+    "sha256": "10a007b0230dfc8287908321e09f21155fdd804e17a927d2830a5ae6158da71b"
+  },
+  {
+    "old": "error_attention_test_00028.png",
+    "new": "images/error_attention_test_00028.png",
+    "sha256": "688881e9550d55092f8d3822469905019280c4894bebcb522bc96fc396c042bb"
+  },
+  {
+    "old": "error_attention_test_12513.png",
+    "new": "images/error_attention_test_12513.png",
+    "sha256": "adb14bfb33faac74897c9c398b6661bad035612e6de8702e14aaa27d56ac552a"
+  },
+  {
+    "old": "error_attention_test_12514.png",
+    "new": "images/error_attention_test_12514.png",
+    "sha256": "db004a2c39f2cda57836800b0abc9cdf6b68eebdbbe14c19dee1afb20b83e52c"
+  },
+  {
+    "old": "tmp/pdfs/existing_images.png",
+    "new": "images/existing_images.png",
+    "sha256": "06473d540450660e6ad327607fa204889357897783d1c6ce1728df8adbbd0e41"
+  },
+  {
+    "old": "artifacts/experiments_19_22/heads_f1_time.png",
+    "new": "images/heads_f1_time.png",
+    "sha256": "28263445ef1e69f8af0171cf4c5da139be1b711cb5a4161a42286c75963799c9"
+  },
+  {
+    "old": "learning_curves.png",
+    "new": "images/learning_curves.png",
+    "sha256": "8bb4c5deee289424f33b1f26537b4f686195275ad0862bb8233a0caa4c9589d1"
+  },
+  {
+    "old": "artifacts/experiments_19_22/length_f1_time_memory.png",
+    "new": "images/length_f1_time_memory.png",
+    "sha256": "81ec00808d77d7518ad9112751daed7255020e838c609d79675f9f11b276237a"
+  },
+  {
+    "old": "tmp/pdfs/pages_1.png",
+    "new": "images/pages_1.png",
+    "sha256": "2fd62f1fa313634c11f5c1a64bfff1d14f565bb82381fc3b9e117718518a8ef2"
+  },
+  {
+    "old": "tmp/pdfs/pages_17.png",
+    "new": "images/pages_17.png",
+    "sha256": "02953b755863ea836fe881ecb7c27e7796d2555802f45c18d7ef8a75a998b5f7"
+  },
+  {
+    "old": "tmp/pdfs/pages_9.png",
+    "new": "images/pages_9.png",
+    "sha256": "959382b06a504473b49f566f40e1ba7f43767fc408fddfc3219b442188f93d27"
+  },
+  {
+    "old": "artifacts/experiment_25/pooling_comparison.png",
+    "new": "images/pooling_comparison.png",
+    "sha256": "9b37ce5d239c8b636acc78b28e3397e988ab17b844fb7c32c13d779ea0845c2b"
+  },
+  {
+    "old": "positional_encoding.png",
+    "new": "images/positional_encoding.png",
+    "sha256": "d7d76787e29b10856c51d7a0addede2fa4de738d2d6af5967cb0f3fbc628b857"
+  },
+  {
+    "old": "artifacts/experiments_19_22/transformer_vs_lstm_learning_curves.png",
+    "new": "images/transformer_vs_lstm_learning_curves.png",
+    "sha256": "d7d29617f2c85a20733e3c06318944772f4f8bf79717b5fd633e74adf4140783"
+  }
+]

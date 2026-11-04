@@ -1,0 +1,71 @@
+{
+  "baseline_checkpoint": "artifacts\\experiments_19_22\\transformer_h4_t128_fac251c06717.pt",
+  "baseline_checkpoint_sha256": "23d8c586aad81b21bd11946239d5abd6f48e6f99b2c8d2f2c92251e07e8f7925",
+  "data_hash": "4cdaa0e3393ccbfacbfd1d6d8841dbced9d8dad457e3c2d64ff13cf8981a93f9",
+  "unique_training_runs": 10,
+  "epochs_per_run": 3,
+  "classification_source_results": [
+    "artifacts\\experiments_19_22\\lstm_h4_t128_31c28829dc82.json",
+    "artifacts\\experiments_19_22\\transformer_h1_t128_72d3093e864d.json",
+    "artifacts\\experiments_19_22\\transformer_h2_t128_05f3da1f276c.json",
+    "artifacts\\experiments_19_22\\transformer_h4_t128_fac251c06717.json",
+    "artifacts\\experiments_19_22\\transformer_h4_t256_8aab535a9e9c.json",
+    "artifacts\\experiments_19_22\\transformer_h4_t32_4fac98918afb.json",
+    "artifacts\\experiments_19_22\\transformer_h4_t64_ccba3e8d6df6.json",
+    "artifacts\\experiments_19_22\\transformer_h8_t128_af1755c68990.json",
+    "artifacts\\experiment_25\\cls-style_7162fb699515.json",
+    "artifacts\\experiment_25\\mean_b9d438aed675.json"
+  ],
+  "source_result_sha256": {
+    "artifacts\\experiments_19_22\\lstm_h4_t128_31c28829dc82.json": "e834075a080e5d08d531dec34b45f7b286f6011495845f881983f6af4a8a0f1c",
+    "artifacts\\experiments_19_22\\transformer_h1_t128_72d3093e864d.json": "895d5c12365c05772f5a508a8991ed4fe8c266365ff19df4e36298cc9374631c",
+    "artifacts\\experiments_19_22\\transformer_h2_t128_05f3da1f276c.json": "01c0a8badb983af8a639caf885f560d4ee355f93536cdae5abcf017c129ea01c",
+    "artifacts\\experiments_19_22\\transformer_h4_t128_fac251c06717.json": "04ee326d2eff920af18cc866cb3517f8a8791f7cd25f7def7997d6761aef1ecf",
+    "artifacts\\experiments_19_22\\transformer_h4_t256_8aab535a9e9c.json": "e3b58855969fd69c8380d18b38089b67948c590b0941a1b60e3df597e65f9db3",
+    "artifacts\\experiments_19_22\\transformer_h4_t32_4fac98918afb.json": "00946ba3ebe06c4ba1eb143a398e6cc6cfbd1f1e6479f0e9e7a0e795b65f0a02",
+    "artifacts\\experiments_19_22\\transformer_h4_t64_ccba3e8d6df6.json": "64a17a6f39d6739d6b45c68e7926537a97421613b2bb22c6edf04b54b190f853",
+    "artifacts\\experiments_19_22\\transformer_h8_t128_af1755c68990.json": "f3a5308d43493cd333ea405a62ae7ed8d62193fcd2896644c5050a8a1f67f847",
+    "artifacts\\experiment_25\\cls-style_7162fb699515.json": "a3339e50f23ca5d9be88c09e76fdc6643500b72dffc1d9913416556d4f98c786",
+    "artifacts\\experiment_25\\mean_b9d438aed675.json": "d41fd92643882c333e163681beebd27775f0ebc6f59b0b2b3c8b2b8ee34cc3f4"
+  },
+  "test_predictions": "artifacts\\error_analysis\\test_predictions.csv",
+  "test_predictions_sha256": "523269912d9cb2badd04a599cffaf20bce9ce0263208c0db24c75e295e0b7e01",
+  "output_sha256": {
+    "results.csv": "8c5d40b992ef95c53867d179568ce63b629bf732fe7131eb19cf9f4a0c4f179c",
+    "images/positional_encoding.png": "d7d76787e29b10856c51d7a0addede2fa4de738d2d6af5967cb0f3fbc628b857",
+    "images/attention_heads.png": "53847fbd6990603faacb82b837d86b413cc876da29d0bf471a3ec43cc2be919a",
+    "images/learning_curves.png": "8bb4c5deee289424f33b1f26537b4f686195275ad0862bb8233a0caa4c9589d1",
+    "images/confusion_matrix.png": "d61af1db5e81d51d98a2796d6408ff01af3477fd448aa3bdf002b465c9178049",
+    "artifacts\\summary\\training_history.csv": "294bc7ce439015adad08fa049791d7def33ffa0b06936bc0ff6d15af7cd2d6be",
+    "artifacts\\summary\\positional_encoding.npz": "93f278a1db8dfa06c80207a22cca9df5d4ca0232995c3b35f2271609191c841a",
+    "artifacts\\summary\\validation_attention.pt": "94142f55fae781f3f331efcd94b37211d74d580389ea57730a009aba4aeac9ee",
+    "artifacts\\summary\\confusion_matrix.csv": "5e3d8fef00608930a227573edaf482be74cd2a93356a08e0438fcc0cc8e50092"
+  },
+  "attention_figure_validation_index": 86,
+  "attention_layer": 1,
+  "attention_heads": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "positional_encoding_figure": {
+    "d_model": 4,
+    "positions": [
+      0,
+      1,
+      2
+    ]
+  },
+  "confusion_matrix": [
+    [
+      9712,
+      2788
+    ],
+    [
+      1940,
+      10560
+    ]
+  ],
+  "timing_note": "Train + validation + CPU best-state copy + logging. 19-22 no separate warmup; 25 discarded warmup. Original times retained."
+}
