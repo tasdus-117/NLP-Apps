@@ -38,7 +38,12 @@ Elon mở entity PER, Musk tiếp nối cùng entity; SpaceX và California mở
 Loss cross entropy trung bình trên tập V các vị trí có label khác -100:
 
 $$
-L=-\frac{1}{|V|}\sum_{(b,t)\in V}\log\operatorname{softmax}(Z_{b,t,:})_{Y_{b,t}}.
+L = -\frac{1}{|V|}
+\sum_{(b,t)\in V}
+\log\left(
+\frac{\exp(Z_{b,t,Y_{b,t}})}
+{\sum_{c=1}^{C}\exp(Z_{b,t,c})}
+\right)
 $$
 
 -100 loại target khỏi loss, không xóa token khỏi contextual attention. Attention mask=0 là padding, khác với continuation subword thường có mask=1 nhưng label=-100.
